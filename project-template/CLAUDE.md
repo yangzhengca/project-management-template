@@ -34,9 +34,11 @@ This is **[PROJECT NAME]** — update this line with your project name and a one
 
 ## Linear Integration
 
-This project uses the Linear MCP server. When interacting with Linear:
+This project uses the Linear MCP server for all Linear interactions (reading and creating issues, projects, milestones, etc.). When interacting with Linear:
 
-- Always use the `linear-handbook` skill to ensure issues follow team standards
+- Use the Linear MCP tools to read from and write to Linear directly
+- Always use the `linear-handbook` skill to ensure issues follow team standards before creating or updating items
+- **Before any write operation to Linear, show the user a draft and wait for explicit approval**
 - Reference `project-goals.md` for context when creating or updating Linear items
 - Default to the Linear team and project specified above unless told otherwise
 
