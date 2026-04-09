@@ -13,12 +13,11 @@ This is **[PROJECT NAME]** — update this line with your project name and a one
 [project-name]/
 ├── CLAUDE.md              # This file — AI instructions & project context
 ├── project-goals.md       # Source of truth for project goals (human-written)
-├── resources/             # Static reference materials, do not modify
+├── docs/                  # Static reference materials, do not modify
 ├── ai/                    # AI-generated outputs
 │   ├── goal-breakdown.md  # AI breakdown of project goals
 │   ├── plans/             # AI-generated plans and strategies
 │   └── research/          # AI research outputs
-├── docs/                  # Human-written documentation
 ├── decisions/             # Key decisions and ADRs
 └── notes/                 # Meeting notes and session summaries
 ```
@@ -26,7 +25,7 @@ This is **[PROJECT NAME]** — update this line with your project name and a one
 ## How to Work With This Project
 
 - Read `project-goals.md` first to understand the project before taking any action
-- Save all AI-generated content under `ai/` — never overwrite files in `resources/`
+- Save all AI-generated content under `ai/` — never overwrite files in `docs/`
 - Use the `linear-handbook` skill whenever creating or updating Linear issues, projects, or initiatives
 - When asked to break down goals, write output to `ai/goal-breakdown.md`
 - When asked to create plans, write output under `ai/plans/`
@@ -44,6 +43,6 @@ This project uses the Linear MCP server for all Linear interactions (reading and
 
 ## Boundaries
 
-- Do not modify anything in `resources/` — it is read-only reference material
+- Do not modify anything in `docs/` — it is read-only reference material
 - Do not create files outside the folders listed above without asking first
 - When in doubt about scope or priority, refer back to `project-goals.md`
